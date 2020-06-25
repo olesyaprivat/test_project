@@ -39,3 +39,10 @@ Have Fun!
  - max offer 23 . expectations 20 . we get failure . why ? 
  - application is goin to unrecoverable state . how user could repeat operation 
  - form disapire in a moment of submit
+ - why we couldnt enter 0 ?
+ - form are dansing 
+ - form is not sentered ))
+ 
+ ## code 
+ I got error warnings while test run
+ 
