@@ -39,6 +39,12 @@ import Employee from "@/views/Employee";
 import Employer from "@/views/Employer";
 export default {
   name: 'App',
+  components: {
+    Weather,
+    HorizontalTabs,
+    Employee,
+    Employer,
+  },
   data() {
     return {
       employerSum: null,
@@ -57,12 +63,6 @@ export default {
       ],
       activeTab: "tab-employer",
     };
-  },
-  components: {
-    Weather,
-    HorizontalTabs,
-    Employee,
-    Employer,
   },
   computed: {
     showModal() {
