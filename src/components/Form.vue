@@ -34,11 +34,11 @@ export default {
   },
   methods: {
     formSubmit() {
-      const numCount = this.inputValue && parseInt(this.inputValue);
-      if (numCount && isFinite(numCount)) {
+      const numCount = this.inputValue && Number(this.inputValue);
+      if (numCount && isFinite(numCount) && numCount > 0) {
         this.$emit("onSubmit", numCount);
       } else {
-        this.error = "Enter value";
+        this.error = "Enter correct value";
       }
     },
   },

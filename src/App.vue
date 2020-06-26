@@ -69,7 +69,7 @@ export default {
       return this.employerSum && this.employeeSum;
     },
     isSuccess() {
-      return this.showModal && this.employerSum === this.employeeSum;
+      return this.showModal && this.employerSum >= this.employeeSum;
     },
   },
   watch: {
